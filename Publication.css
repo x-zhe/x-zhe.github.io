@@ -54,6 +54,14 @@
 }
 
 .u-section-2 .u-btn-6 {
+  text-align: left;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 1rem;
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-2 .u-btn-7 {
   background-image: none;
   padding: 0;
 }
@@ -68,17 +76,17 @@
   margin: 5px 60px 0;
 }
 
-.u-section-2 .u-btn-7 {
-  background-image: none;
-  padding: 0;
-}
-
 .u-section-2 .u-btn-8 {
   background-image: none;
   padding: 0;
 }
 
 .u-section-2 .u-btn-9 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-2 .u-btn-10 {
   text-align: left;
   font-family: 'Open Sans',sans-serif;
   font-size: 1rem;
@@ -86,7 +94,7 @@
   padding: 0;
 }
 
-.u-section-2 .u-btn-10 {
+.u-section-2 .u-btn-11 {
   text-align: left;
   font-family: 'Open Sans',sans-serif;
   font-size: 1rem;
