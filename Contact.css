@@ -78,6 +78,11 @@
   padding: 0;
 }
 
+.u-section-2 .u-btn-6 {
+  background-image: none;
+  padding: 0;
+}
+
 @media (max-width: 1199px) {
   .u-section-2 .u-text-1 {
     margin-right: 0;

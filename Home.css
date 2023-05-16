@@ -8,8 +8,8 @@
 
 .u-section-1 .u-image-1 {
   min-height: 572px;
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("images/xiang.webp");
-  background-position: 50% 50%;
+  background-image: url("images/_DSC1540_ps.jpg");
+  background-position: 50% 35.4%;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -21,17 +21,17 @@
 }
 
 .u-section-1 .u-container-layout-2 {
-  padding: 30px 111px 30px 105px;
+  padding: 30px 68px;
 }
 
 .u-section-1 .u-text-1 {
   font-family: Syne;
-  margin: 47px auto 0 0;
+  margin: 47px auto 0 38px;
 }
 
 .u-section-1 .u-text-2 {
   font-size: 1rem;
-  margin: 20px 0 0;
+  margin: 47px 38px 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -75,6 +75,11 @@
 
   .u-section-1 .u-layout-cell-2 {
     min-height: 493px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
