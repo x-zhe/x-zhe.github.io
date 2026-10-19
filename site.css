@@ -1,0 +1,213 @@
+/* Shared content styles; the existing Nicepage theme supplies the site design. */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.skip-link {
+  position: absolute;
+  left: 16px;
+  top: -100px;
+  z-index: 1000;
+  padding: 10px 16px;
+  background: #fff;
+}
+
+.skip-link:focus {
+  top: 8px;
+}
+
+a:focus-visible {
+  outline: 2px solid #3575b1;
+  outline-offset: 4px;
+}
+
+.u-header .u-nav-item > .u-nav-link[aria-current="page"] {
+  color: #3575b1;
+}
+
+.content-page .u-section-1 .u-sheet-1 {
+  min-height: 70px;
+}
+
+.content-page .u-section-1 .u-text-1 {
+  margin: 0 auto 20px;
+}
+
+.content-page .u-section-2 .u-sheet-1 {
+  min-height: 0;
+  padding-bottom: 0;
+}
+
+.page-content {
+  max-width: 1020px;
+  margin: 20px auto 80px;
+  line-height: 1.75;
+  overflow-wrap: anywhere;
+}
+
+.page-content h3 {
+  margin: 36px 0 12px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.4;
+  scroll-margin-top: 24px;
+}
+
+.page-content > h3:first-child {
+  margin-top: 0;
+}
+
+.page-content h4 {
+  margin: 24px 0 12px;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.page-content ul {
+  padding-left: 24px;
+  margin: 0;
+}
+
+.page-content li {
+  padding-left: 4px;
+  margin: 0 0 12px;
+}
+
+.page-content .publication-list li {
+  margin-bottom: 20px;
+}
+
+.page-content a,
+.bio a {
+  color: #3575b1;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.page-content a:hover,
+.bio a:hover {
+  color: #254f76;
+}
+
+.section-links {
+  margin-bottom: 28px;
+}
+
+.publication-note,
+.publication-status {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.publication-status {
+  display: block;
+  margin-top: 4px;
+}
+
+.home-page .u-section-1 .u-sheet-1 {
+  min-height: 0;
+}
+
+.home-page .u-section-1 .u-layout-wrap-1 {
+  margin-top: 35px;
+  margin-bottom: 70px;
+}
+
+.home-page .u-section-1 .u-container-layout-2 {
+  padding: 20px 0 20px 55px;
+}
+
+.home-page .u-section-1 .u-text-1 {
+  margin: 0 0 24px;
+}
+
+.home-page .u-section-1 .u-image-1 {
+  min-height: 620px;
+}
+
+.bio {
+  line-height: 1.75;
+}
+
+.bio p {
+  margin: 0 0 18px;
+}
+
+.bio .research-areas {
+  font-size: 0.95rem;
+}
+
+.cv-intro,
+.cv-download,
+.cv-fallback {
+  text-align: center;
+}
+
+.page-content .cv-download .u-btn {
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  text-decoration: none;
+}
+
+.page-content iframe {
+  display: block;
+  max-width: 100%;
+  margin: 30px auto 20px;
+}
+
+.u-footer .u-text-1 {
+  max-width: 100%;
+}
+
+@media (max-width: 1199px) {
+  .page-content {
+    max-width: 100%;
+  }
+
+  .home-page .u-section-1 .u-container-layout-2 {
+    padding-left: 35px;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-page .u-section-1 .u-container-layout-2 {
+    padding: 30px 0 0;
+  }
+
+  .home-page .u-section-1 .u-image-1 {
+    min-height: 0;
+    aspect-ratio: 4 / 5;
+  }
+
+  .home-page .u-section-1 .u-layout-wrap-1 {
+    margin-top: 15px;
+    margin-bottom: 45px;
+  }
+
+  .page-content {
+    margin-bottom: 45px;
+  }
+
+  .page-content iframe {
+    display: none;
+  }
+}
+
+@media (max-width: 374px) {
+  .u-body .u-sheet {
+    /* Override the exported theme's fixed 340px width on narrow screens. */
+    width: calc(100% - 32px) !important;
+  }
+
+  .u-header .u-text-1 {
+    max-width: 100%;
+    font-size: 2rem;
+  }
+}
